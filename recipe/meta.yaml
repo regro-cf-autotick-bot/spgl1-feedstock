@@ -1,5 +1,5 @@
 {% set name = "spgl1" %}
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/spgl1-{{ version }}.tar.gz
-  sha256: a2a524724097bad18dd88a306dbcc99124c6c46ffcbb1a96d6ba6dd6fe2f7404
+  sha256: 9734da2747de5a48d65021f286ad1f1ba42503a5b3277b9fa052cfda1858530b
 
 build:
   noarch: python
